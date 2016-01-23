@@ -1,7 +1,16 @@
-var mongoose = require('mongoose'),
-    Schema = mongoose.Schema;
+var mongoose = require('mongoose');
+var Schema = mongoose.Schema;
 
 var userSchema = new Schema({
+    name: {
+        type: String,
+        required: true
+    },
+    image: {
+        type: String,
+        required: true,
+        default: 'assets/img/no-image.jpg'
+    },
     username: {
         type: String,
         required: true,

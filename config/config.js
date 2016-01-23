@@ -1,5 +1,5 @@
-global.SALT_KEY = '202860be';
+global.SALT_KEY = '743a63ff';
 
 module.exports = {
-    connectionString: 'mongodb://abt:abt@ds047345.mongolab.com:47345/abt5510'
+    connectionString: 'mongodb://andrebaltieri:andrebaltieri@ds041934.mongolab.com:41934/5510db'
 }
